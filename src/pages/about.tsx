@@ -1,16 +1,16 @@
+import { Outlet } from "react-router-dom";
 
-function Home() {
+const About = () => {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
+    <>s
+      <nav>
+        Hola
+      </nav>
 
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
+      <Outlet />
+    </>
+  )
+};
+
+export default About
+
